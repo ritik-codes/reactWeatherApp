@@ -1,0 +1,124 @@
+body{
+  margin: 40px 0px;
+  padding: 0;
+  background-color: #202121;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.form{
+  margin: 5px 5px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  top: 10px;
+}
+
+button{
+  height: 2.09em;
+  width: 20%;
+  border-radius: 0px 30px 30px 0px;
+  font-size: 1.5em;
+  border-style: none;
+  margin-left: -4px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+}
+
+input[type=text]{
+  border-radius: 30px 0px 0px 30px;
+  border-style: none;
+  width: 70%;
+  height: 2em;
+  font-size: 1.5em;
+  font-weight: bolder;
+  padding-left: 20px;
+  outline: none;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.fontcss {
+  font-size: 1.3em;
+
+}
+
+.temp{
+  font-size: 2em;
+  background-color: #fff;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.elementcenter {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: -10px;
+}
+
+h3{
+  font-size: 1.8em;
+}
+
+.imgcss {
+  background-color: lightblue;
+  border-radius: 50%;
+  box-shadow: 2px 2px 13px 2px white;
+  transform: scale(2);
+}
+
+.add{
+  height: 20px;
+  width: 20px;
+  font-size: 15px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+li{
+  font-size: 1.2em;
+  font-family: sans-serif;
+  list-style-type: none;
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 700px)  {
+  .form{
+    transform: scale(0.8);
+    margin: 10px 0px;
+    padding-top: 5px;
+
+  }
+
+  .imgcss{
+    height: 20px;
+    margin: 20px 0px;
+  }
+
+  .fontcss, h2, h3{
+    font-size: 15px;
+    margin: 0px;
+    margin-bottom: 2px;
+    margin-top: 5px
+  }
+
+  .temp{
+    font-size: 25px;
+    background-color: #fff;
+    padding: 0 5px;
+    border-radius: 5px;
+  }
+
+  li{
+    font-family: sans-serif;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+  }
+
+  ul{
+    margin: 0;
+  }
+}
